@@ -19,7 +19,7 @@ export function ThreeDCardDemo() {
         >
           Hover over this card to unleash the power of CSS perspective
         </CardItem> */}
-        <CardItem translateZ="200" className="w-full mt-4">
+        <CardItem translateZ="150" className="w-full mt-4">
           <img
             src="/img/niyas/niyasstay.jpeg"
             height="1000"

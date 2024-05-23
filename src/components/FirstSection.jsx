@@ -13,12 +13,15 @@ import { TbBrandJavascript } from "react-icons/tb";
 import { SiJquery } from "react-icons/si";
 import { TbWorldWww } from "react-icons/tb";
 import { FcCheckmark } from "react-icons/fc";
+import {BackgroundBoxesDemo} from "../components/AceternityUI/3D-cardEffect/3d-box"
+// import { BackgroundBeamsDemo } from "./AceternityUI/3D-cardEffect/3d-everault-card";
+
 
 
 export default function FirstSection() {
   return (
   <>
-  
+  <BackgroundBoxesDemo></BackgroundBoxesDemo>
     <div className="overflow-hidden">
       <div className="p-23 bg-red-400"></div>
       <div className="w-auto h-auto  mb-28">
