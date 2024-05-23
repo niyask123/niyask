@@ -1,6 +1,8 @@
 import { useEffect } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import {ThreeDCardDemo} from "../components/AceternityUI/3D-cardEffect/3d-cardComponent"
+
 
 export default function Home() {
     useEffect(() => {
@@ -19,7 +21,8 @@ export default function Home() {
                 </div>
                 <div className="flex flex-cols-3 gap-4 justify-evenly  lg:py-10 ">
                     <div data-aos="fade-up" data-aos-delay="400" className=" ">
-                        <img src="/img/WhatsApp Image 2024-05-04 at 4.50.23 PM.jpeg" className='w-64 rounded-full ' alt="" />
+                    <ThreeDCardDemo></ThreeDCardDemo>
+                        {/* <img src="/img/WhatsApp Image 2024-05-04 at 4.50.23 PM.jpeg" className='w-64 rounded-full ' alt="" /> */}
                     </div>
                 </div>
                 <div className="flex justify-evenly text-center">   
