@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: "Figtree", sans-serif;
+  font-style: normal;
+  overflow-x: hidden;
+  width: 100vw;
+
+}
+.spText{
+  font-family: "Wendy One", sans-serif;
+}
+.design-box:hover {
+  border-radius: 0;
+  -webkit-transition: all 5s ease;
+  transition: all 10s ease;
+
+}
+.design-box {
+  border-radius: 0;
+  -webkit-transition: all 5s ease;
+  transition: all 10s ease;
+  border-radius: 15px;
+}
+
+.sp1Text{
+  font-family: "Fugaz One", sans-serif;
+}
