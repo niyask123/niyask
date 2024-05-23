@@ -104,7 +104,7 @@ export default function FirstSection() {
                     <span className="pe-2 lg:pe-4">
                       <TbWorldWww />
                     </span>
-                    TECHBUTOMY
+                    TECHBUTOMY.
                   </a>
                   <p className="mt-2 text-slate-500 flex">
                     <span className="lg:pe-4 pe-2">
