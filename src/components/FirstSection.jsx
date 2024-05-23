@@ -14,6 +14,7 @@ import { SiJquery } from "react-icons/si";
 import { TbWorldWww } from "react-icons/tb";
 import { FcCheckmark } from "react-icons/fc";
 import {BackgroundBoxesDemo} from "../components/AceternityUI/3D-cardEffect/3d-box"
+import { LampDemo } from "./AceternityUI/3D-cardEffect/lamp";
 // import { BackgroundBeamsDemo } from "./AceternityUI/3D-cardEffect/3d-everault-card";
 
 
@@ -22,15 +23,16 @@ export default function FirstSection() {
   return (
   <>
   <BackgroundBoxesDemo></BackgroundBoxesDemo>
-    <div className="overflow-hidden">
-      <div className="p-23 bg-red-400"></div>
+    <div className="overflow-hidden ">
+      <div className="p-23  bg-red-400"></div>
       <div className="w-auto h-auto  mb-28">
         <div className=" flex justify-center p-8">
           <span className="text-7xl bg-gradient-to-r from-cyan-500 to-blue-500 text-transparent bg-clip-text spText">
             SKILLS
           </span>
         </div>
-        <div className="grid gap-4 grid-cols-2 lg:grid-cols-6 px-6 lg:px-12 grid-rows-6 lg:grid-rows-2 overflow-hidden">
+        <LampDemo></LampDemo>
+        <div className="grid pt-20 gap-4 grid-cols-2 lg:grid-cols-6 px-6 lg:px-12 grid-rows-6 lg:grid-rows-2 overflow-hidden">
           <div data-aos="fade-right" className="lg:p-14 p-4 flex justify-center items-center  bg-gradient-to-r from-indigo-200 to-gray-300 rounded-lg  transition ease-in-out delay-150   hover:-translate-y-1 hover:scale-105">
             <FaReact className="text-7xl text-red-600 " />
           </div>
