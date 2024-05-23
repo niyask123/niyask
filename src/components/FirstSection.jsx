@@ -26,11 +26,7 @@ export default function FirstSection() {
     <div className="overflow-hidden ">
       <div className="p-23  bg-red-400"></div>
       <div className="w-auto h-auto  mb-28">
-        <div className=" flex justify-center p-8">
-          <span className="text-7xl bg-gradient-to-r from-cyan-500 to-blue-500 text-transparent bg-clip-text spText">
-            SKILLS
-          </span>
-        </div>
+        
         <LampDemo></LampDemo>
         <div className="grid pt-20 gap-4 grid-cols-2 lg:grid-cols-6 px-6 lg:px-12 grid-rows-6 lg:grid-rows-2 overflow-hidden">
           <div data-aos="fade-right" className="lg:p-14 p-4 flex justify-center items-center  bg-gradient-to-r from-indigo-200 to-gray-300 rounded-lg  transition ease-in-out delay-150   hover:-translate-y-1 hover:scale-105">
