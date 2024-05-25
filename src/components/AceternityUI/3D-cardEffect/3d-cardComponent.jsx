@@ -23,7 +23,7 @@ export function ThreeDCardDemo() {
         </CardItem> */}
         <CardItem translateZ="150" className="w-full mt-4">
           <img
-            src="/public/img/niyas/niyashead.jpeg"
+            src="/img/niyas/niyashead.jpeg"
             height="1000"
             width="1000"
             className="h-[30rem] w-full object-cover rounded-full group-hover/card:shadow-xl"
