@@ -35,7 +35,7 @@ export default function FirstSection() {
       <div className="p-23  bg-red-400"></div>
       <div className="w-auto h-auto  mb-28">
       {/* <CardHoverEffectDemo/> */}
-        <LampDemo></LampDemo>
+        {/* <LampDemo></LampDemo> */}
         <div className="grid pt-20 gap-4 grid-cols-2 lg:grid-cols-6 px-6 lg:px-12 grid-rows-6 lg:grid-rows-2 overflow-hidden">
           <div data-aos="fade-right" className="lg:p-14 p-4 flex justify-center items-center  bg-gradient-to-r from-indigo-200 to-gray-300 rounded-lg  transition ease-in-out delay-150   hover:-translate-y-1 hover:scale-105">
             <FaReact className="text-7xl text-red-600 " />
