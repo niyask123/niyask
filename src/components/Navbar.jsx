@@ -12,7 +12,7 @@ export default function Home() {
     return (
         <div>
             <BackgroundBeamsDemo/>
-            <div className='w-auto h-auto flex flex-col lg:gap-y-2 gap-y-14 '>
+            <div className='w-auto h-auto flex flex-col lg:gap-y-2 gap-y-14  bg-black'>
                 
                 <div className="flex flex-cols-3 gap-4 justify-evenly  lg:py-10 ">
                     <div data-aos="fade-up" data-aos-delay="400" className=" ">

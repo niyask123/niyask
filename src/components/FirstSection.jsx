@@ -15,6 +15,9 @@ import { TbWorldWww } from "react-icons/tb";
 import { FcCheckmark } from "react-icons/fc";
 import {BackgroundBoxesDemo} from "../components/AceternityUI/3D-cardEffect/3d-box"
 import { LampDemo } from "./AceternityUI/3D-cardEffect/lamp";
+import { GoogleGeminiEffectDemo } from "./AceternityUI/3D-cardEffect/3d-google";
+// import { MeteorsDemo } from "./AceternityUI/3D-cardEffect/3d-metros";
+// import { CardHoverEffectDemo } from "./AceternityUI/3D-cardEffect/3d-cardhover";
 // import { BackgroundBeamsDemo } from "./AceternityUI/3D-cardEffect/3d-everault-card";
 
 
@@ -22,11 +25,16 @@ import { LampDemo } from "./AceternityUI/3D-cardEffect/lamp";
 export default function FirstSection() {
   return (
   <>
+  <GoogleGeminiEffectDemo/>
+
   <BackgroundBoxesDemo></BackgroundBoxesDemo>
+
+  
     <div className="overflow-hidden ">
+      
       <div className="p-23  bg-red-400"></div>
       <div className="w-auto h-auto  mb-28">
-        
+      {/* <CardHoverEffectDemo/> */}
         <LampDemo></LampDemo>
         <div className="grid pt-20 gap-4 grid-cols-2 lg:grid-cols-6 px-6 lg:px-12 grid-rows-6 lg:grid-rows-2 overflow-hidden">
           <div data-aos="fade-right" className="lg:p-14 p-4 flex justify-center items-center  bg-gradient-to-r from-indigo-200 to-gray-300 rounded-lg  transition ease-in-out delay-150   hover:-translate-y-1 hover:scale-105">
@@ -77,6 +85,7 @@ export default function FirstSection() {
               </span>
             </div>
           </div>
+          {/* <MeteorsDemo/> */}
           <div className=" grid lg:grid-cols-2">
             <div
               data-aos="fade-down-right"
@@ -114,6 +123,7 @@ export default function FirstSection() {
                 </div>
               </div>
             </div>
+            
             <div 
               data-aos="fade-down-left"
               data-aos-delay="100"
@@ -224,6 +234,7 @@ export default function FirstSection() {
                 </div>
               </div>
             </div>
+         
           </div>
         </div>
         {/* <div className="grid  grid-rows-4 lg:grid-rows-1 lg:grid-cols-4 grid-cols-1 gap-8 p-12">

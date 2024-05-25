@@ -22,6 +22,9 @@ export function BackgroundBeamsDemo() {
           placeholder="niyaskknr@gmail.com"
           className="rounded-lg border border-neutral-800 focus:ring-2 focus:ring-teal-500  w-full relative z-10 mt-4  bg-neutral-950 placeholder:text-neutral-700"
         />
+        <h1 className="relative z-10 text-[4rem] md:text-4xl pt-4  bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600  text-center font-sans font-bold">
+          FULLSTACK WEB DEVELOPER
+        </h1>
       </div>
       <BackgroundBeams />
     </div>

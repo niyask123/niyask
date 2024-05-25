@@ -14,9 +14,9 @@ export function LampDemo() {
           duration: 0.8,
           ease: "easeInOut",
         }}
-        className="text-7xl bg-gradient-to-r from-cyan-500 to-blue-500 text-transparent bg-clip-text spText mt-8    py-4  text-center  font-medium tracking-tight  md:text-7xl"
+        className="relative z-10 text-[4rem] md:text-7xl  bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600  text-center font-sans font-bold"
       >
-        My Technical   <br /> SKILLS 🔻
+        My Technical   SKILLS 
       </motion.h1>
     </LampContainer>
   );
