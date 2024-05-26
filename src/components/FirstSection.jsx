@@ -940,8 +940,8 @@ export default function FirstSection() {
                         </div>
                       </div>
                     </dialog>
-                  </div>
-                </div>
+                  </div>    
+                </div>  
               </div>
             </div>
           </div>
