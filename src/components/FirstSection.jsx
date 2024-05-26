@@ -24,7 +24,7 @@ import { TextRevealCardPreview } from "./AceternityUI/3D-cardEffect/3d-text";
 // import { BackgroundBeamsDemo } from "./AceternityUI/3D-cardEffect/3d-everault-card";
 
 export default function FirstSection() {
-  return (
+  return (   
     <>
       <GoogleGeminiEffectDemo />
 
